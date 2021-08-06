@@ -10,7 +10,7 @@ class BooksController extends Controller
         return $this->make($restKey,$faker);
     }
     public function make($restKey,$faker){
-        $author = rawurlencode('Tolkien');
+        $author = rawurlencode('Ernest Hemingway');
         $url = "https://api2.isbndb.com/author/{$author}";
         $restKey = $restKey;
 
